@@ -1,0 +1,17 @@
+{
+  "name": "fylo-dark-theme-landing-page-master",
+  "version": "1.0.0",
+  "main": "public/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./src/index.html --no-cache",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-beta.3.1",
+    "parcel": "^2.0.0-beta.3.1"
+  },
+  "dependencies": {
+    "@sass-collective/strip-unit": "^3.0.0"
+  }
+}
